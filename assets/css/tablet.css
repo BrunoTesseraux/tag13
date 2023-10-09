@@ -1,0 +1,17 @@
+@media screen and (max-width: 800px) {
+  main section {
+    flex-direction: column;
+  }
+  section > div {
+    width: 100%;
+  }
+  footer div {
+    grid-template-columns: 1fr;
+  }
+  footer article {
+    margin-top: 1.25rem;
+  }
+  form {
+    width: 82%;
+  }
+}

@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+  header,
+  main {
+    margin-inline: 2%;
+  }
+  form {
+    width: 95%;
+  }
+
+  main section {
+    gap: 0;
+  }
+  .overlay {
+    position: relative;
+    height: 100%;
+    background-color: #ebeae9;
+  }
+
+  .container:hover .overlay {
+    height: 100%;
+  }
+  .overlay p {
+    color: black;
+    font-size: 12px;
+    position: relative;
+    text-align: center;
+    padding: 1rem;
+  }
+}
